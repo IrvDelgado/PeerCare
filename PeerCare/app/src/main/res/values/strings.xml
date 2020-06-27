@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PeerCare</string>
+    <string name="title_activity_main_auth_menu">MainAuthMenu</string>
+
+    <!--authentication-->
+    <string name="btn_login">Iniciar sesión</string>
+    <string name="btn_signup">Crear cuenta</string>
+    <string name="btn_reset_password">¿Olvidó su contraseña?</string>
+    <string name="logo">Logo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_email">Email</string>
+    <string name="registro">Registro</string>
+    <string name="enterEmail">Ingrese su dirección de correo electrónico</string>
+    <string name="emptyField">¡Algo está vacío! Llene todos los campos.</string>
+    <string name="enterUsername">Ingrese un nombre de usuario</string>
+    <string name="enterPassword">Ingrese una contraseña</string>
+    <string name="passwordShort">Contraseña muy corta, ingrese al menos 8 caracteres.</string>
+    <string name="noInternet">Sin acceso a internet</string>
+    <string name="btn_link_to_login">¿Ya tiene cuenta? ¡Inicie sesión!</string>
+    <string name="action_sign_in_short">Crear una cuenta</string>
+    <string name="nuevacuenta">Regístrate</string>
+    <string name="hint_first_name">Nombre</string>
+    <string name="hint_last_name">Apellidos</string>
+    <string name="hint_address">Calle y número</string>
+    <string name="hint_city">Ciudad</string>
+    <string name="hint_zipcode">Código Postal</string>
+    <string name="enterFirstName">Ingrese su nombre</string>
+    <string name="enterLastName">Ingrese su apellido</string>
+    <string name="enterAddress">Ingrese calle y número</string>
+    <string name="enterCity">Ingrese Ciudad</string>
+    <string name="enterZipcode">Ingrese código postal</string>
+    <string name="emailNotMatchingPattern">¡Correo electrónico no valido!</string>
+    <string name="passwortNotMatchingPattern">La contraseña no contiene minúsculas, mayúsculas y al menos un número.</string>
+    <string name="hint_confirm_email">Confirme email</string>
+    <string name="hint_confirm_password">Confirme contraseña</string>
+    <string name="back">Atrás</string>
+    <string name="next">Siguiente</string>
+    <string name="first_name">Nombre:</string>
+    <string name="last_name">Apellido:</string>
+    <string name="email">Email:</string>
+    <string name="address">Dirección y número:</string>
+    <string name="city">Ciudad:</string>
+    <string name="zipcode">Código Postal:</string>
+    <string name="emailsNotTheSame">¡Los correos no coinciden!</string>
+    <string name="passwordsNotTheSame">¡Las contraseñas no coinciden!</string>
+    <string name="olvidopass">¿Olvidó su contraseña?</string>
+    <string name="nocuenta">¿No tienes una cuenta?</string>
+
+</resources>
