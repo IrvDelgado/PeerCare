@@ -28,13 +28,23 @@ router.post("/add",auth, async (req, res) => {
     res.send("ok");
 });
 
+
+
 //solicitar atender tarea
 router.post("/solicita",auth, async (req, res) => {
+    //parametros: Que tarea y quien
+
+    //Actualiza el proveedor y el estatus a solicitada.
+});
+
+/*
+//aprueba atender tarea
+router.post("/aprueba",auth, async (req, res) => {
 
 });
 
-//aprueba atender tarea
-router.post("/prueba",auth, async (req, res) => {
+//rechaza atender tarea
+router.post("/rechaza",auth, async (req, res) => {
 
 });
 
@@ -52,6 +62,6 @@ router.get("/gettask",auth, async (req, res) => {
 router.get("/gettasks",auth, async (req, res) => {
 
 });
-
+*/
 
 module.exports = router;

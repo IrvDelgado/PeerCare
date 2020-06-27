@@ -1,6 +1,7 @@
-const {Schema, model}= require('mongoose');
+const mongoose = require('mongoose');
 
-const tareaSchema = new Schema({
+//simple schema
+const tareaSchema = new mongoose.Schema({
     titulo: String,
     descripcion: String,
     costo: Number,
@@ -16,4 +17,7 @@ const tareaSchema = new Schema({
     status: String
 });
 
-module.exports = model('Tarea', tareaSchema)
+const Tarea = mongoose.model('Tarea', tareaSchema);
+
+exports.Tarea = Tarea; 
+
