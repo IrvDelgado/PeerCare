@@ -829,6 +829,7 @@ drawable ic_icon_dashboard
 drawable ic_icon_home
 drawable ic_icon_home2
 drawable ic_icon_setting
+drawable ic_keyboard_arrow_down_black_24dp
 drawable ic_mars
 drawable ic_notification
 drawable ic_phone_symbol_of_an_auricular_inside_a_circle
@@ -847,6 +848,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable shadows
+drawable textlines
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1122,6 +1125,7 @@ layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout fragment_home
 layout fragment_notificacion
+layout fragment_profile
 layout fragment_tareas
 layout notification_action
 layout notification_action_tombstone
@@ -1145,6 +1149,7 @@ layout support_simple_spinner_dropdown_item
 layout tooltip
 menu menu_main
 mipmap ic_accountcircle
+mipmap ic_downarrow
 mipmap ic_home3
 mipmap ic_launcher
 mipmap logo
@@ -1214,6 +1219,7 @@ string hint_first_name
 string hint_last_name
 string hint_password
 string hint_zipcode
+string info
 string last_name
 string logo
 string next
@@ -1229,10 +1235,14 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string privacy
+string profpic
 string registro
 string search_menu_title
+string signout
 string status_bar_notification_info_overflow
 string title_activity_main_auth_menu
+string useterms
 string zipcode
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

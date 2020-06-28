@@ -48,16 +48,7 @@
                 android:layout_weight="1"
             />
 
-
-
         </LinearLayout>
-
-
-
-
-
-
-
 
     </android.support.v7.widget.Toolbar>
 

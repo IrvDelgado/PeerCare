@@ -10,6 +10,7 @@
     <string name="hint_password">Contraseña</string>
     <string name="hint_email">Email</string>
     <string name="registro">Registro</string>
+    <string name="profpic">Editar foto de perfil</string>
     <string name="enterEmail">Ingrese su dirección de correo electrónico</string>
     <string name="emptyField">¡Algo está vacío! Llene todos los campos.</string>
     <string name="enterUsername">Ingrese un nombre de usuario</string>
@@ -45,6 +46,10 @@
     <string name="passwordsNotTheSame">¡Las contraseñas no coinciden!</string>
     <string name="olvidopass">¿Olvidó su contraseña?</string>
     <string name="nocuenta">¿No tienes una cuenta?</string>
+    <string name="signout">Cerrar sesión.</string>
+    <string name="info">Información de la cuenta.</string>
+    <string name="useterms">Términos de uso.</string>
+    <string name="privacy">Política de privacidad.</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

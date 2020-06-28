@@ -31,13 +31,25 @@
         app:layout_constraintTop_toTopOf="parent">
 
 
-        <Button
-            android:id="@+id/next"
-            android:layout_width="fill_parent"
+        <ImageView
+            android:layout_width="@dimen/logo_w_h"
+            android:layout_height="@dimen/logo_w_h"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:src="@mipmap/logo" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:background="@color/colorPrimary"
-            android:text="@string/next" />
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/input_login" />
 
         <EditText
             android:id="@+id/confirmEmail"
@@ -75,26 +87,14 @@
             android:singleLine="true"
             android:textColor="@color/input_login" />
 
-        <EditText
-            android:id="@+id/email"
-            android:layout_width="match_parent"
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-
-            android:hint="@string/hint_email"
-            android:inputType="textEmailAddress"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:textColor="@color/input_login" />
-
-
-        <ImageView
-            android:layout_width="@dimen/logo_w_h"
-            android:layout_height="@dimen/logo_w_h"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="30dp"
-            android:src="@mipmap/logo" />
+            android:layout_marginTop="25dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/next" />
 
         <!-- Link to Login Screen -->
 
