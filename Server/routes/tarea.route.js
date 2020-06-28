@@ -137,17 +137,12 @@ router.get("/getavailabletasks",auth, async (req, res) => {
 
 
 //As an elderly: 
-//obtener todas las tareas que tengo publicadas.
-
-//obtener todas las tareas que tengo pendientes de aprobar o rechazar.
-
-
-//obtener todas las tareas que tengo 
+//obtener todas las tareas que tengo publicadas, solicitadas etc (filtrar en front-end)
 
 //As a caregiver
-//Obtener todas las tareas que he solicitado
+//Obtener todas mis tareas resueltas a completar etc (filtrar en front-end)
 
-//Obtener todas las tareas que tengo confirmadas en progreso. 
+
 
 
 module.exports = router;
