@@ -5,10 +5,7 @@ const tareaSchema = new mongoose.Schema({
     titulo: String,
     descripcion: String,
     costo: Number,
-    idDireccion: {
-        type: String,
-        required: true,
-    },
+    idDireccion:String,
     checkintime: String,
     checkouttime: String,
     duracion: Number,
