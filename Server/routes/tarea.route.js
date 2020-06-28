@@ -91,10 +91,7 @@ router.post("/rechaza",auth, async (req, res) => {
     }
     );
 
-
-
 });
-
 
 //completa tarea
 router.post("/completa",auth, async (req, res) => {
@@ -125,12 +122,32 @@ router.get("/gettask",auth, async (req, res) => {
 });
 
 
-//obtener todas las tareas (no completadas.?)
+//obtener todas las tareas
 router.get("/gettasks",auth, async (req, res) => {
   const tareas = await Tarea.find();
   res.send(tareas);
 });
 
+//obtener todas las tareas disponibles.
+router.get("/getavailabletasks",auth, async (req, res) => {
+
+  const tareas = await Tarea.find({ status: 'publicada'});;
+  res.send(tareas);
+});
+
+
+//As an elderly: 
+//obtener todas las tareas que tengo publicadas.
+
+//obtener todas las tareas que tengo pendientes de aprobar o rechazar.
+
+
+//obtener todas las tareas que tengo 
+
+//As a caregiver
+//Obtener todas las tareas que he solicitado
+
+//Obtener todas las tareas que tengo confirmadas en progreso. 
 
 
 module.exports = router;
