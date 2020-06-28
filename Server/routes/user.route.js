@@ -1,6 +1,7 @@
 const auth = require("../middleware/auth");
 const bcrypt = require("bcrypt");
 const { User, validate, encryptp,comparep } = require("../models/user.model");
+const { Tarea } = require("../models/Tarea.model");
 const Adress = require('../models/Adress.model')
 const Cuidadoradulto = require('../models/cuidador_adulto.model')
 const express = require("express");
@@ -12,6 +13,18 @@ router.get("/current", auth, async (req, res) => {
   //-__v y - ids?
   const addr = await Adress.findById( user.idDireccion);
   res.send(user+addr);
+});
+
+//obtener todas las tareas que he solicitado.
+router.get("/getmyrequestedtasks", auth, async (req, res) => {
+  const tareas = await Tarea.find({ idSolicitante: req.user._id});;
+  res.send(tareas);
+});
+//5ed48e700d9cda1eac542135
+//obtener todas las tareas que he atendido
+router.get("/getmyservedtasks", auth, async (req, res) => {
+  const tareas = await Tarea.find({ idProveedor: req.user._id});;
+  res.send(tareas);
 });
 
 //Signup Crear cuenta 
