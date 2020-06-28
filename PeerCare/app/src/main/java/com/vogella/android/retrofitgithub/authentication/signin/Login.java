@@ -24,6 +24,7 @@ import com.vogella.android.retrofitgithub.common.OwnValidator;
 import com.vogella.android.retrofitgithub.common.SaveSharedPreferences;
 import com.vogella.android.retrofitgithub.common.user.User;
 import com.vogella.android.retrofitgithub.common.user.UserDeserializer;
+import com.vogella.android.retrofitgithub.dashboard;
 import com.vogella.android.retrofitgithub.menu.Menu;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -69,9 +70,10 @@ public class Login extends AppCompatActivity {
     public void buttonsListeners() {
         btnLogin.setOnClickListener(v ->
         {
-            if (!areFieldsValid()) return;
+            //if (!areFieldsValid()) return;
 
-            progressBar.setVisibility(View.VISIBLE);
+            startActivity(new Intent(Login.this, dashboard.class));
+            //progressBar.setVisibility(View.VISIBLE);
 
             /*final LoginPayloadRequest loginPayloadRequest = LoginPayloadRequest.builder()
                     .email(inputEmailText.getText().toString())

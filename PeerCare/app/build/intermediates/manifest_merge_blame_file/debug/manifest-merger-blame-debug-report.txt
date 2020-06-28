@@ -10,15 +10,15 @@
 9        android:targetSdkVersion="26" />
 9-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:32:5-67
-11-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:32:22-64
-12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:34:5-79
-12-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:34:22-76
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:31:5-79
+11-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:31:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:33:5-67
+12-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:33:22-64
 13
 14    <application
-14-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:6:5-31:19
+14-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:6:5-30:19
 15        android:allowBackup="true"
 15-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:7:9-35
 16        android:debuggable="true"
@@ -31,44 +31,46 @@
 20        android:testOnly="true"
 21        android:theme="@style/AppTheme" >
 21-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:11:9-40
-22        <activity android:name="com.vogella.android.retrofitgithub.ActivityHome" >
-22-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:13:19-47
-23            <intent-filter>
-23-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:15:17-69
-24-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:17:17-77
-26-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28        </activity>
-29        <activity android:name="com.vogella.android.retrofitgithub.authentication.signup.SignUpThirdScreen" />
-29-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:20:9-77
-29-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:20:19-74
-30        <activity android:name="com.vogella.android.retrofitgithub.authentication.signup.SignUpSecondScreen" />
-30-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:21:9-78
-30-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:21:19-75
-31        <activity android:name="com.vogella.android.retrofitgithub.menu.Menu" />
-31-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:22:9-47
-31-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:22:19-44
-32        <activity android:name="com.vogella.android.retrofitgithub.authentication.signup.SignUp" />
-32-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:23:9-66
-32-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:23:19-63
-33        <activity android:name="com.vogella.android.retrofitgithub.authentication.signin.Login" />
-33-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:24:9-65
-33-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:24:19-62
-34        <activity
-34-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:25:9-30:20
-35            android:name="com.vogella.android.retrofitgithub.authentication.MainAuthMenu"
-35-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:26:13-56
-36            android:label="@string/title_activity_main_auth_menu"
-36-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:27:13-66
-37            android:theme="@style/AppTheme.NoActionBar" >
-37-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:28:13-56
-38        </activity>
+22        <activity android:name="com.vogella.android.retrofitgithub.dashboard" />
+22-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:13:9-56
+22-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:13:19-44
+23        <activity android:name="com.vogella.android.retrofitgithub.ActivityHome" >
+23-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:14:9-20:20
+23-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:14:19-47
+24            <intent-filter>
+24-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:16:17-69
+25-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:18:17-77
+27-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.vogella.android.retrofitgithub.authentication.signup.SignUpThirdScreen" />
+30-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:21:9-77
+30-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:21:19-74
+31        <activity android:name="com.vogella.android.retrofitgithub.authentication.signup.SignUpSecondScreen" />
+31-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:22:9-78
+31-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:22:19-75
+32        <activity android:name="com.vogella.android.retrofitgithub.menu.Menu" />
+32-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:23:9-47
+32-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:23:19-44
+33        <activity android:name="com.vogella.android.retrofitgithub.authentication.signup.SignUp" />
+33-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:24:9-66
+33-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:24:19-63
+34        <activity android:name="com.vogella.android.retrofitgithub.authentication.signin.Login" />
+34-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:25:9-65
+34-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:25:19-62
+35        <activity
+35-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:26:9-29:68
+36            android:name="com.vogella.android.retrofitgithub.authentication.MainAuthMenu"
+36-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:27:13-56
+37            android:label="@string/title_activity_main_auth_menu"
+37-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:28:13-66
+38            android:theme="@style/AppTheme.NoActionBar" />
+38-->C:\Users\User\Documents\ingenieria de software\PeerCare\app\src\main\AndroidManifest.xml:29:13-56
 39
 40        <meta-data
 40-->[com.android.support:design:26.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\fe097be07f34b2c5095b69710fb5fa60\design-26.1.0\AndroidManifest.xml:26:9-28:38
