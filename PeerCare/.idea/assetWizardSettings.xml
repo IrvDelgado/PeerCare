@@ -93,6 +93,22 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="clipartAsset">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_home_black_24dp.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="outputName" value="ic_home3" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -123,7 +139,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
+                            <entry key="outputIconType" value="LAUNCHER_LEGACY" />
                           </map>
                         </option>
                       </PersistentState>
@@ -145,8 +161,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_phone_symbol_of_an_auricular_inside_a_circle" />
-                            <entry key="sourceFile" value="C:\Users\User\Documents\ingenieria de software\Icons\phone-symbol-of-an-auricular-inside-a-circle.svg" />
+                            <entry key="outputName" value="ic_icon_home2" />
+                            <entry key="sourceFile" value="C:\Users\User\Documents\ingenieria de software\Icons\icon_home.svg" />
                           </map>
                         </option>
                       </PersistentState>
