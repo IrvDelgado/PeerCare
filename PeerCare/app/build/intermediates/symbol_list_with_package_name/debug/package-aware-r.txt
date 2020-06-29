@@ -834,6 +834,7 @@ drawable ic_icon_home2
 drawable ic_icon_setting
 drawable ic_keyboard_arrow_down_black_24dp
 drawable ic_mars
+drawable ic_monetization_on_black_24dp
 drawable ic_notification
 drawable ic_phone_symbol_of_an_auricular_inside_a_circle
 drawable ic_union_49
@@ -962,6 +963,9 @@ id line1
 id line3
 id listMode
 id list_item
+id listview1
+id listview2
+id listview3
 id masked
 id media_actions
 id menu_calendar
@@ -1140,6 +1144,7 @@ layout fragment_profile
 layout fragment_tareapendiente
 layout fragment_tareas
 layout fragment_tareasaceptadas
+layout list_item_personalizado
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
