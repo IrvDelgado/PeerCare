@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/tareapendiente"
+        android:title="Tareas disponibles"
+        android:icon="@drawable/ic_book_black_24dp" />
+
+    <item android:id="@+id/tareaaceptada"
+        android:title="Tareas aceptadas"
+
+        android:icon="@drawable/ic_check_black_24dp"/>
+    <item android:id="@+id/creartarea"
+        android:title="Crear tarea"
+        android:icon="@drawable/ic_add_circle_outline_black_24dp" />
+</menu>

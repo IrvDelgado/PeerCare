@@ -819,7 +819,10 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_account_circle_black_24dp
+drawable ic_add_circle_outline_black_24dp
 drawable ic_arrow_back_white_24dp
+drawable ic_book_black_24dp
+drawable ic_check_black_24dp
 drawable ic_email_84
 drawable ic_female
 drawable ic_icon_calendar
@@ -890,6 +893,7 @@ id beginning
 id blocking
 id bottom
 id bottomNavigation
+id bottomNavigation2
 id btn_login
 id btn_sign_up
 id buttonPanel
@@ -907,8 +911,10 @@ id collapseActionView
 id confirmEmail
 id confirmPassword
 id container
+id container2
 id contentPanel
 id coordinator
+id creartarea
 id custom
 id customPanel
 id decor_content_parent
@@ -966,7 +972,9 @@ id middle
 id mini
 id multiply
 id my_toolbar
+id my_toolbar2
 id myaccount
+id myaccount2
 id navigation_header_container
 id never
 id next
@@ -1031,6 +1039,8 @@ id status_bar_latest_event_content
 id submenuarrow
 id submit_area
 id tabMode
+id tareaaceptada
+id tareapendiente
 id text
 id text2
 id textSpacerNoButtons
@@ -1123,10 +1133,13 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_creartarea
 layout fragment_home
 layout fragment_notificacion
 layout fragment_profile
+layout fragment_tareapendiente
 layout fragment_tareas
+layout fragment_tareasaceptadas
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1147,6 +1160,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tooltip
+menu menu2
 menu menu_main
 mipmap ic_accountcircle
 mipmap ic_downarrow
