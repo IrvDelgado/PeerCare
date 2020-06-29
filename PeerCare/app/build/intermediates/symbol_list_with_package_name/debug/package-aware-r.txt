@@ -902,6 +902,7 @@ id cancel_action
 id center
 id center_horizontal
 id center_vertical
+id cerrarsesion
 id chains
 id checkbox
 id chronometer
@@ -1172,6 +1173,7 @@ mipmap ic_downarrow
 mipmap ic_home3
 mipmap ic_launcher
 mipmap logo
+string Duracion
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
 string abc_action_bar_home_subtitle_description_format
@@ -1215,6 +1217,7 @@ string btn_reset_password
 string btn_signup
 string character_counter_pattern
 string city
+string desctarea
 string email
 string emailNotMatchingPattern
 string emailsNotTheSame
@@ -1233,10 +1236,12 @@ string hint_address
 string hint_city
 string hint_confirm_email
 string hint_confirm_password
+string hint_desc
 string hint_email
 string hint_first_name
 string hint_last_name
 string hint_password
+string hint_title
 string hint_zipcode
 string info
 string last_name
@@ -1261,6 +1266,7 @@ string search_menu_title
 string signout
 string status_bar_notification_info_overflow
 string title_activity_main_auth_menu
+string titulotarea
 string useterms
 string zipcode
 style AlertDialog_AppCompat

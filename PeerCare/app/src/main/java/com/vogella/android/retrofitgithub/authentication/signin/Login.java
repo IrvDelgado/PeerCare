@@ -70,7 +70,7 @@ public class Login extends AppCompatActivity {
     public void buttonsListeners() {
         btnLogin.setOnClickListener(v ->
         {
-            //if (!areFieldsValid()) return;
+            if (!areFieldsValid()) return;
 
             startActivity(new Intent(Login.this, dashboard.class));
             //progressBar.setVisibility(View.VISIBLE);
